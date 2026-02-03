@@ -61,7 +61,8 @@ Future improvements may include additional enemy types, ship upgrades, and chall
 
 ## 👥 Team
 
-Developed by a student team as part of a school video game design project.
+Developed by a student team for the TSA Video Game Design competition
+Made by Adam Lawrence, Ryan Hamilton, Brenden Shipp 
 
 ---
 
@@ -71,10 +72,8 @@ Developed by a student team as part of a school video game design project.
 
 ---
 
-## 🏁 How to Run
-
-1. Open the project in **GameMaker Studio**
-2. Build and run using the default target platform
+## 🏁 How to Play
+Go to [Online](vectordrift.impostertwo.us)
 
 ---
 
