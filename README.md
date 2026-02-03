@@ -73,7 +73,7 @@ Made by Adam Lawrence, Ryan Hamilton, Brenden Shipp
 ---
 
 ## 🏁 How to Play
-Go to [Online](vectordrift.impostertwo.us)
+Go to [This link](https://vectordrift.impostertwo.us/)
 
 ---
 
