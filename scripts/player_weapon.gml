@@ -14,7 +14,7 @@ function player_weapon() {
             laser.speed = 8;
             
             can_fire = false;
-            alarm[0] = fire_rate; // Reset fire rate timer
+            alarm[0] = fire_rate; // Start cooldown timer
         }
     }
 }
