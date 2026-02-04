@@ -9,3 +9,4 @@ hsp = 0;
 vsp = 0;
 
 mass = 10
+hp = 5

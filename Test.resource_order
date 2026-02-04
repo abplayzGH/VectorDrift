@@ -4,5 +4,6 @@
     {"name":"game","order":1,"path":"objects/game/game.yy",},
     {"name":"obj_bullet","order":2,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_rock","order":3,"path":"objects/obj_rock/obj_rock.yy",},
+    {"name":"Ship_5","order":1,"path":"sprites/Ship_5/Ship_5.yy",},
   ],
 }
