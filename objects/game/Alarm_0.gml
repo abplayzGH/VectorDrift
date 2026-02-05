@@ -17,6 +17,8 @@ for (var i = 0; i < rock_spawn_count; i++) {
         "Instances",
         obj_rock
     );
+	show_debug_message("Spawning rock");
+
 
     r.hsp *= rock_speed_mult;
     r.vsp *= rock_speed_mult;
