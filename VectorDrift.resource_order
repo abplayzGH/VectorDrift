@@ -9,5 +9,7 @@
     {"name":"spr_rock_big","order":2,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
     {"name":"spr_rock_small","order":3,"path":"sprites/spr_rock_small/spr_rock_small.yy",},
     {"name":"Sprite7","order":5,"path":"sprites/Sprite7/Sprite7.yy",},
+    {"name":"Sprite8_1","order":7,"path":"sprites/Sprite8_1/Sprite8_1.yy",},
+    {"name":"Sprite8","order":6,"path":"sprites/Sprite8/Sprite8.yy",},
   ],
 }

@@ -50,6 +50,8 @@
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
     {"id":{"name":"spr_rock_small","path":"sprites/spr_rock_small/spr_rock_small.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
+    {"id":{"name":"Sprite8_1","path":"sprites/Sprite8_1/Sprite8_1.yy",},},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

@@ -4,7 +4,7 @@ effect_create_above(ef_explosion, x, y, 1, c_white)
 
 direction = random(360)
 
-if sprite_index == spr_rock_big{
+if sprite_index == Sprite8{
 	sprite_index = spr_rock_small
 	mass = irandom_range(10, 30)
 	instance_copy(true)
