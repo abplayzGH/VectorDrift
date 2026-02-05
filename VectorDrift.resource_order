@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"Drone","order":1,"path":"objects/Drone/Drone.yy",},
+    {"name":"obj_spawner","order":3,"path":"objects/obj_spawner/obj_spawner.yy",},
     {"name":"StartButton","order":2,"path":"objects/StartButton/StartButton.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"Ship_5","order":1,"path":"sprites/Ship_5/Ship_5.yy",},
