@@ -1,0 +1,13 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Drone","order":1,"path":"objects/Drone/Drone.yy",},
+    {"name":"StartButton","order":2,"path":"objects/StartButton/StartButton.yy",},
+    {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
+    {"name":"Ship_5","order":1,"path":"sprites/Ship_5/Ship_5.yy",},
+    {"name":"spr_bullet","order":4,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"spr_rock_big","order":2,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
+    {"name":"spr_rock_small","order":3,"path":"sprites/spr_rock_small/spr_rock_small.yy",},
+    {"name":"Sprite7","order":5,"path":"sprites/Sprite7/Sprite7.yy",},
+  ],
+}

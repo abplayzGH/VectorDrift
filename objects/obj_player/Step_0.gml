@@ -51,8 +51,18 @@ with (obj_rock) {
     var dist = point_distance(x, y, other.x, other.y);
     var dir = point_direction(other.x, other.y, x, y);
     force = (.1*(mass * other.mass))/(sqr(dist))
+	force *= global.gravity_mult;
 
     other.hsp += lengthdir_x(force, dir);
     other.vsp += lengthdir_y(force, dir);
   
+}
+
+if (hp <= 0) {
+    effect_create_layer(layer, ef_firework, x, y, 1, c_white);
+	
+	//game.alarm[0] = 120
+	game.game_state = game.GAME_OVER
+
+    instance_destroy();
 }
