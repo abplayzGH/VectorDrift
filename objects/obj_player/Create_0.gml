@@ -10,3 +10,6 @@ vsp = 0;
 
 mass = 10
 hp = 5
+
+fire_cooldown = 0;
+fire_delay = room_speed * 0.2; // 0.2 seconds (5 shots/sec)

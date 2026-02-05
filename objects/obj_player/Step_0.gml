@@ -19,11 +19,19 @@ if (keyboard_check(ord("S"))) {
     vsp *= 0.90;
 }
 
-// --- Shooting ---
-if (mouse_check_button_pressed(mb_left)) {
+if (fire_cooldown > 0) {
+    fire_cooldown--;
+}
+
+
+if (mouse_check_button(mb_left) && fire_cooldown <= 0) {
     var b = instance_create_layer(x, y, "Instances", obj_bullet);
-    b.hsp += hsp; // inherit momentum
+
+    // Inherit momentum
+    b.hsp += hsp;
     b.vsp += vsp;
+
+    fire_cooldown = fire_delay;
 }
 
 // --- Apply friction (VERY small space drag) ---

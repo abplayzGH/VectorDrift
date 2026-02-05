@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player",
-    "path":"sprites/spr_player/spr_player.yy",
+    "name":"Ship_5",
+    "path":"sprites/Ship_5/Ship_5.yy",
   },
   "spriteMaskId":null,
   "visible":true,
