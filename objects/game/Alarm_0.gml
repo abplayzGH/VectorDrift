@@ -1,33 +1,41 @@
-difficulty += 1;
+wave_in_progress = true;
 
-// Increase difficulty values
-rock_spawn_count += 1;
-rock_speed_mult += 0.1;
-global.gravity_mult += 0.05;
+rocks_remaining = rock_base_count + wave;
 
-// Clamp so it doesn’t break the game
-rock_spawn_count = min(rock_spawn_count, 6);
-rock_speed_mult = min(rock_speed_mult, 2);
-global.gravity_mult = min(global.gravity_mult, 2);
+// Scale difficulty per wave
+rock_speed_mult = 1 + wave * 0.1;
+global.gravity_mult = min(1 + wave * 0.05, 2);
 
-for (var i = 0; i < rock_spawn_count; i++) {
+// Spawn rocks
+for (var i = 0; i < rocks_remaining; i++) {
     var r = instance_create_layer(
         irandom(room_width),
         -32,
         "Instances",
         obj_rock
     );
-	show_debug_message("Spawning rock");
-
 
     r.hsp *= rock_speed_mult;
     r.vsp *= rock_speed_mult;
 }
-
-if (difficulty > 1) {
-	instance_create_layer(irandom(room_width), irandom(room_height), "Instances", Drone)
+if (wave >= 5){
+	level += 1
+	wave = 1
 }
 
+instance_create_layer(
+	irandom(room_width),
+	irandom(room_height),
+	"Instances",
+	Scrap)
 
-
-alarm[0] = room_speed * 10;
+// Spawn enemies after wave 2
+if (wave >= 3) {
+	for (var i = 0; i < wave; i += 1)
+    instance_create_layer(
+        irandom(room_width),
+        irandom(room_height),
+        "Instances",
+        Drone
+    );
+}
