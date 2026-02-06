@@ -1,6 +1,6 @@
 if (game_state == GAME_OVER) {
     if (mouse_check_button_pressed(mb_left)) {
-        room_restart();
+		room_restart()
     }
 }
 if (wave_in_progress && rocks_remaining <= 0 && enemies_remaining <= 0) {

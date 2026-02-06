@@ -9,7 +9,7 @@ hsp = 0;
 vsp = 0;
 
 mass = 10
-hp = 50
+hp = 5
 
 fire_cooldown = 0;
 fire_delay = room_speed * 0.2;

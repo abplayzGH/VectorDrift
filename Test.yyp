@@ -44,13 +44,11 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
-    {"id":{"name":"pauseMenu","path":"objects/pauseMenu/pauseMenu.yy",},},
     {"id":{"name":"Scrap","path":"objects/Scrap/Scrap.yy",},},
     {"id":{"name":"SetFont","path":"objects/SetFont/SetFont.yy",},},
     {"id":{"name":"StartButton","path":"objects/StartButton/StartButton.yy",},},
     {"id":{"name":"EndlessMode","path":"rooms/EndlessMode/EndlessMode.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"id":{"name":"PauseScreen","path":"rooms/PauseScreen/PauseScreen.yy",},},
     {"id":{"name":"font_spr","path":"sprites/font_spr/font_spr.yy",},},
     {"id":{"name":"font2x_spr","path":"sprites/font2x_spr/font2x_spr.yy",},},
     {"id":{"name":"Ship_5","path":"sprites/Ship_5/Ship_5.yy",},},
@@ -67,7 +65,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"EndlessMode","path":"rooms/EndlessMode/EndlessMode.yy",},},
-    {"roomId":{"name":"PauseScreen","path":"rooms/PauseScreen/PauseScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
