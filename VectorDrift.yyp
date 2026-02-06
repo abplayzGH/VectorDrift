@@ -36,6 +36,7 @@
   "name":"Test",
   "resources":[
     {"id":{"name":"LINK_TO_TUTORIALS","path":"notes/LINK_TO_TUTORIALS/LINK_TO_TUTORIALS.yy",},},
+    {"id":{"name":"BuyHp","path":"objects/BuyHp/BuyHp.yy",},},
     {"id":{"name":"Drone","path":"objects/Drone/Drone.yy",},},
     {"id":{"name":"game","path":"objects/game/game.yy",},},
     {"id":{"name":"MenuOptions","path":"objects/MenuOptions/MenuOptions.yy",},},
@@ -47,12 +48,15 @@
     {"id":{"name":"Scrap","path":"objects/Scrap/Scrap.yy",},},
     {"id":{"name":"SetFont","path":"objects/SetFont/SetFont.yy",},},
     {"id":{"name":"StartButton","path":"objects/StartButton/StartButton.yy",},},
+    {"id":{"name":"UpgradeObj","path":"objects/UpgradeObj/UpgradeObj.yy",},},
     {"id":{"name":"EndlessMode","path":"rooms/EndlessMode/EndlessMode.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"id":{"name":"Upgrades","path":"rooms/Upgrades/Upgrades.yy",},},
     {"id":{"name":"font_spr","path":"sprites/font_spr/font_spr.yy",},},
     {"id":{"name":"font2x_spr","path":"sprites/font2x_spr/font2x_spr.yy",},},
     {"id":{"name":"Ship_5","path":"sprites/Ship_5/Ship_5.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
+    {"id":{"name":"spr_BuyHpUpdate","path":"sprites/spr_BuyHpUpdate/spr_BuyHpUpdate.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
     {"id":{"name":"spr_rock_small","path":"sprites/spr_rock_small/spr_rock_small.yy",},},
@@ -65,6 +69,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"EndlessMode","path":"rooms/EndlessMode/EndlessMode.yy",},},
+    {"roomId":{"name":"Upgrades","path":"rooms/Upgrades/Upgrades.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

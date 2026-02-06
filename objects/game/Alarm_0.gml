@@ -18,9 +18,10 @@ for (var i = 0; i < rocks_remaining; i++) {
     r.hsp *= rock_speed_mult;
     r.vsp *= rock_speed_mult;
 }
-if (wave >= 5){
-	level += 1
+if (wave >= 3){
+	global.level += 1
 	wave = 1
+	room_goto(Upgrades)
 }
 
 instance_create_layer(
