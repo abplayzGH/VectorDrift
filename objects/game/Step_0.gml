@@ -10,6 +10,6 @@ if (wave_in_progress && rocks_remaining <= 0 && enemies_remaining <= 0) {
 }
 if (game_state != GAME_OVER) {
     if (keyboard_check(vk_escape)) {
-        room_goto(Menu)
+        room_goto(PauseScreen)
     }
 }
