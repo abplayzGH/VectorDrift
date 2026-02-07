@@ -19,4 +19,7 @@ if (game_state == GAME_OVER) {
     draw_text(display_get_gui_width()/2,
               display_get_gui_height()/2 + 20,
               "Click to Restart");
-}
+}	  
+			  
+
+

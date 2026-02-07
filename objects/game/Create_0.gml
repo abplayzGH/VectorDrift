@@ -20,7 +20,7 @@ global.level = 1;
 // Player / Upgrades
 // --------------------
 global.basehp   = 20;
-global.firerate = 3;
+global.firerate = 1;
 global.scrap    = 0;
 
 // --------------------
@@ -41,4 +41,5 @@ instance_create_layer(window_get_width()/2, window_get_height()/2, "Instances", 
 // --------------------
 // Start First Wave
 // --------------------
+
 alarm[0] = room_speed * 3;

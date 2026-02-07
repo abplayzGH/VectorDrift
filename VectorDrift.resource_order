@@ -3,6 +3,7 @@
   "ResourceOrderSettings":[
     {"name":"BuyHp","order":1,"path":"objects/BuyHp/BuyHp.yy",},
     {"name":"UpgradeObj","order":2,"path":"objects/UpgradeObj/UpgradeObj.yy",},
+    {"name":"EndlessMode","order":2,"path":"rooms/EndlessMode/EndlessMode.yy",},
     {"name":"Upgrades","order":1,"path":"rooms/Upgrades/Upgrades.yy",},
     {"name":"spr_BuyHpUpdate","order":1,"path":"sprites/spr_BuyHpUpdate/spr_BuyHpUpdate.yy",},
   ],

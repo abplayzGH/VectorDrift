@@ -24,7 +24,7 @@ if (!variable_global_exists("basehp")) {
     global.basehp = 20;
 }
 
-hp = 3 + global.basehp;  // 3 base HP + upgrades
+hp = global.basehp;  // 3 base HP + upgrades
 // --------------------
 // Shooting
 // --------------------
